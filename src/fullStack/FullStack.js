@@ -10,7 +10,7 @@ const FullStack = () => {
   const [quizSubmitted, setQuizSubmitted] = useState(false);
   const [FullscreenPermission, setFullScreenPermission] = useState(true);
   const [launchQuizz, setLaunchQuizz] = useState(false);
-  const [timer, setTimer] = useState(10);
+  const [timer, setTimer] = useState(500);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const Navigate = useNavigate();
 
