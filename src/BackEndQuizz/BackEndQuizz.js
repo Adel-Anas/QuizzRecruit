@@ -82,7 +82,6 @@ const BackEndQuizz = () => {
 
     if (timer === 0) {
       setQuizCompleted(true);
-      exitFullscreen();
       clearInterval(interval); // Stop the interval
     }
 
